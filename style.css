@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+}
+
+.header {
+    height: 101px;
+    width: 100%;
+    display: flex;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+
+.logo {
+    height: 51px;
+    width: 51px;
+}
+
+nav {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+    nav {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-left ul li {
+    padding-left: 24px;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.find-store {
+    margin-right: 40px;
+}
+
+.sign-in {
+    margin-right: 16px;
+}
