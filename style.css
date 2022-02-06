@@ -104,6 +104,18 @@ li {
   .winter-right-paragraph {
     font-size: 24px;
   }
+
+  .uber-eats-paragraph {
+    font-size: 19px;
+  }
+
+  .uber-eats-title2 {
+    font-size: 24px;
+  }
+
+  .uber-eats-paragraph2 {
+    font-size: 19px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -144,6 +156,14 @@ li {
 
   .winter-menu-inner-items-right {
     padding: 0 4.8rem;
+  }
+
+  .uber-eats-left-bottom {
+    padding: 0 4.8rem;
+  }
+
+  .uber-eats-right-bottom {
+    padding: 0 4.8rem !important;
   }
 }
 
@@ -475,4 +495,174 @@ nav {
 
 .winter-right-button:hover {
   background-color: hsla(0, 0%, 100%, 0.12);
+}
+
+.uber-eats-container {
+  max-width: 1440px;
+  box-sizing: content-box;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 3.2rem auto !important;
+}
+
+.uber-eats-inner-items {
+  display: flex !important;
+}
+
+.uber-eats-inner-items-left {
+  width: calc(100% * (6 / 12));
+  flex-direction: column !important;
+  display: flex !important;
+}
+
+.uber-eats-inner-items-left-content {
+  height: 100% !important;
+  margin-right: 1.6rem !important;
+  display: flex !important;
+  align-items: stretch !important;
+  flex-direction: column !important;
+}
+
+.uber-eats-left-top {
+  background-color: #d4e9e2;
+  width: calc(100% * (12 / 12));
+  padding-bottom: 0.8rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.uber-eats-img {
+  display: block !important;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+.uber-eats-left-bottom {
+  background-color: #d4e9e2;
+  padding-bottom: 3.2rem !important;
+  flex-grow: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.uber-eats-left-bottom-content {
+  text-align: center !important;
+}
+
+.uber-eats-title {
+  color: #1e3932;
+  font-size: 24px;
+  font-weight: 600 !important;
+  margin-bottom: 2.4rem !important;
+}
+
+.uber-eats-paragraph {
+  color: #1e3932;
+  max-width: calc(1em * (calc(600 / 13)));
+  line-height: 1.75;
+}
+
+.uber-eats-button {
+  min-width: 35px;
+  color: #1e3932;
+  display: inline-block;
+  background: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 7px 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  margin-top: 3.2rem !important;
+}
+
+.uber-eats-button:hover {
+  background-color: rgba(30, 57, 50, 0.1);
+}
+
+.uber-eats-inner-items-right {
+  width: calc(100% * (6 / 12));
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.uber-eats-inner-items-right-content {
+  height: 100% !important;
+  margin-left: 1.6rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: stretch !important;
+}
+
+.uber-eats-right-top {
+  background-color: #d4e9e2;
+  width: calc(100% * (12 / 12));
+  padding-bottom: 0.8rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.uber-eats-img2 {
+  display: block !important;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+.uber-eats-right-bottom {
+  background-color: #d4e9e2;
+  padding-bottom: 3.2rem !important;
+  display: flex !important;
+  flex-direction: column !important;
+  flex-grow: 1 !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.uber-eats-right-bottom-content {
+  text-align: center !important;
+}
+
+.uber-eats-title2 {
+  color: #1e3932;
+  font-weight: 600 !important;
+  margin-bottom: 2.4rem !important;
+}
+
+.uber-eats-paragraph2 {
+  color: #1e3932;
+  max-width: calc(1em * (calc(600 / 13)));
+  line-height: 1.75;
+  text-align: center !important;
+}
+
+.uber-eats-button2 {
+  min-width: 35px;
+  color: #1e3932;
+  display: inline-block;
+  background: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 7px 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  margin-top: 3.2rem !important;
+  cursor: pointer;
+}
+
+.uber-eats-button2:hover {
+  background-color: rgba(30, 57, 50, 0.1);
 }
