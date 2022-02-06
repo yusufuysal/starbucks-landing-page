@@ -84,6 +84,26 @@ li {
   .rewards-left-paragraph {
     font-size: 19px;
   }
+
+  .winter-menu-inner-items {
+    display: flex !important;
+  }
+
+  .winter-menu-inner-items-left {
+    width: calc(100% * (6 / 12));
+  }
+
+  .winter-menu-inner-items-right {
+    width: calc(100% * (6 / 12));
+  }
+
+  .winter-menu-inner-items-right-content {
+    max-width: 83%;
+  }
+
+  .winter-right-paragraph {
+    font-size: 24px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -110,11 +130,20 @@ li {
     padding-top: 4rem !important;
     padding-bottom: 4rem !important;
   }
+
+  .winter-right-title {
+    font-size: 50px;
+    letter-spacing: 2px;
+  }
 }
 
 @media (min-width: 1280px) {
   .rewards-inner-items-left {
     padding: 4.8rem;
+  }
+
+  .winter-menu-inner-items-right {
+    padding: 0 4.8rem;
   }
 }
 
@@ -369,5 +398,81 @@ nav {
 }
 
 .rewards-left-button:hover {
+  background-color: hsla(0, 0%, 100%, 0.12);
+}
+
+.winter-menu-container {
+  max-width: 1440px;
+  box-sizing: content-box;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 3.2rem auto !important;
+}
+
+.winter-menu-inner {
+  box-sizing: border-box;
+}
+
+.winter-menu-inner-items-left {
+  background-color: #1e3932;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.winter-menu-img {
+  display: block !important;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+.winter-menu-inner-items-right {
+  background-color: #1e3932;
+  padding-top: 3.2rem !important;
+  padding-bottom: 3.2rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.winter-menu-inner-items-right-content {
+  text-align: center !important;
+}
+
+.winter-right-title {
+  color: #ffffff;
+  line-height: 1.2;
+  font-weight: 600 !important;
+  margin-bottom: 2.4rem !important;
+  text-align: center !important;
+}
+
+.winter-right-paragraph {
+  color: #ffffff;
+  text-align: center !important;
+  max-width: calc(1em * (calc(600 / 13)));
+}
+
+.winter-right-button {
+  min-width: 35px;
+  min-height: 35px;
+  color: #fff;
+  display: inline-block;
+  background: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 7px 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  margin-top: 3.2rem !important;
+}
+
+.winter-right-button:hover {
   background-color: hsla(0, 0%, 100%, 0.12);
 }
