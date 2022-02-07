@@ -95,6 +95,14 @@ li {
   .black-history-paragraph {
     font-size: 19px;
   }
+
+  .mark-inner-items-content {
+    max-width: 60%;
+  }
+
+  .mark-paragraph {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -127,7 +135,8 @@ li {
 
   .winter-menu-inner-items-right,
   .uber-eats-left-bottom,
-  .black-history-inner-items-right {
+  .black-history-inner-items-right,
+  .mark-inner-items-content {
     padding: 0 4.8rem;
   }
 
@@ -677,4 +686,36 @@ li {
 
 .black-history-button:hover {
   background-color: rgba(0, 0, 0, 0.06);
+}
+
+.mark-container {
+  max-width: 1440px;
+  box-sizing: content-box;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 3.2rem !important;
+}
+
+.mark-inner {
+  box-sizing: border-box;
+}
+
+.mark-inner-items {
+  padding-top: 3.2rem !important;
+  padding-bottom: 3.2rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.mark-inner-items-content {
+  text-align: center !important;
+}
+
+.mark-paragraph {
+  max-width: calc(1em * (calc(600 / 13)));
+  line-height: 1.8;
+  text-align: center !important;
 }
