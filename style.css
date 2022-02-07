@@ -63,30 +63,36 @@ li {
   }
 
   .rewards-inner-items,
-  .winter-menu-inner-items {
+  .winter-menu-inner-items,
+  .black-history-inner-items {
     display: flex !important;
   }
 
   .rewards-inner-items-right,
   .rewards-inner-items-left,
   .winter-menu-inner-items-left,
-  .winter-menu-inner-items-right {
+  .winter-menu-inner-items-right,
+  .black-history-inner-items-left,
+  .black-history-inner-items-right {
     width: calc(50%);
   }
   .rewards-inner-items-left-content,
-  .winter-menu-inner-items-right-content {
+  .winter-menu-inner-items-right-content,
+  .black-history-inner-items-right-content {
     max-width: 83%;
   }
 
   .rewards-left-title,
   .winter-right-paragraph,
-  .uber-eats-title2 {
+  .uber-eats-title2,
+  .black-history-title {
     font-size: 24px;
   }
 
   .rewards-left-paragraph,
   .uber-eats-paragraph,
-  .uber-eats-paragraph2 {
+  .uber-eats-paragraph2,
+  .black-history-paragraph {
     font-size: 19px;
   }
 }
@@ -120,7 +126,8 @@ li {
   }
 
   .winter-menu-inner-items-right,
-  .uber-eats-left-bottom {
+  .uber-eats-left-bottom,
+  .black-history-inner-items-right {
     padding: 0 4.8rem;
   }
 
@@ -605,4 +612,69 @@ li {
 
 .uber-eats-button2:hover {
   background-color: rgba(30, 57, 50, 0.1);
+}
+
+.black-history-container {
+  max-width: 1440px;
+  box-sizing: content-box;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  margin: 3.2rem auto !important;
+}
+
+.black-history-inner {
+  box-sizing: border-box;
+}
+
+.black-history-image {
+  display: block !important;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+.black-history-inner-items-right {
+  background-color: #cdddd9;
+  padding-top: 3.2rem !important;
+  padding-bottom: 3.2rem !important;
+  text-align: center !important;
+}
+
+.black-history-inner-items-right-content {
+  text-align: center !important;
+}
+
+.black-history-title {
+  font-weight: 600 !important;
+  margin-bottom: 2.4rem !important;
+  margin: 0;
+}
+
+.black-history-paragraph {
+  color: #000000;
+  max-width: calc(1em * (calc(600 / 13)));
+  line-height: 1.75;
+  text-align: center !important;
+}
+
+.black-history-button {
+  min-width: 35px;
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  background: none;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+  padding: 7px 16px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  margin-top: 3.2rem !important;
+  cursor: pointer;
+}
+
+.black-history-button:hover {
+  background-color: rgba(0, 0, 0, 0.06);
 }
