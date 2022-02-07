@@ -29,6 +29,13 @@ body {
   font-feature-settings: "calt";
 }
 
+nav {
+  box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+  background-color: #fff !important;
+  height: 100%;
+}
+
 a {
   display: inline-block !important;
   color: currentcolor;
@@ -167,16 +174,15 @@ li {
   }
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header {
   position: relative;
   z-index: 3;
-}
-
-nav {
-  box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
-    0 0 2px rgb(0 0 0 / 7%);
-  background-color: #fff !important;
-  height: 100%;
 }
 
 .nav-flex-container {
@@ -356,9 +362,6 @@ nav {
 }
 
 .rewards-inner-items-right {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
   box-sizing: inherit;
 }
 
@@ -374,9 +377,6 @@ nav {
   background-color: #006241;
   padding-top: 3.2rem !important;
   padding-bottom: 3.2rem !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
   box-sizing: inherit;
 }
 
@@ -435,9 +435,6 @@ nav {
 
 .winter-menu-inner-items-left {
   background-color: #1e3932;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
 }
 
 .winter-menu-img {
@@ -451,9 +448,6 @@ nav {
   background-color: #1e3932;
   padding-top: 3.2rem !important;
   padding-bottom: 3.2rem !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
   text-align: center !important;
 }
 
@@ -527,9 +521,6 @@ nav {
   background-color: #d4e9e2;
   width: calc(100% * (12 / 12));
   padding-bottom: 0.8rem !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
 }
 
 .uber-eats-img {
@@ -605,9 +596,6 @@ nav {
   background-color: #d4e9e2;
   width: calc(100% * (12 / 12));
   padding-bottom: 0.8rem !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
 }
 
 .uber-eats-img2 {
@@ -620,11 +608,8 @@ nav {
 .uber-eats-right-bottom {
   background-color: #d4e9e2;
   padding-bottom: 3.2rem !important;
-  display: flex !important;
   flex-direction: column !important;
   flex-grow: 1 !important;
-  justify-content: center !important;
-  align-items: center !important;
   text-align: center !important;
 }
 
