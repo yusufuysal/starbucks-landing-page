@@ -43,7 +43,27 @@ a {
 }
 
 li {
+  display: list-item;
   text-align: -webkit-match-parent;
+}
+
+hr {
+  border: 0;
+  margin: 0;
+  padding-top: 3.2rem !important;
+  padding-bottom: 3.2rem !important;
+}
+
+hr::before {
+  content: "";
+  display: block;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 480px) {
+  .social-media-icons li {
+    margin-right: 0.4rem !important;
+  }
 }
 
 @media (min-width: 768px) {
@@ -58,7 +78,8 @@ li {
 
   .menu-link,
   .rewards-link,
-  .gift-cards-link {
+  .gift-cards-link,
+  .copyright {
     font-size: 1.4rem !important;
   }
 
@@ -788,4 +809,38 @@ li {
   display: block !important;
   background-color: transparent;
   cursor: pointer;
+}
+
+.social-media-icons {
+  margin-left: -5px;
+  display: flex !important;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-media-icons li a {
+  min-width: 44px;
+  min-height: 44px;
+  transition: all 0.2s ease-out;
+  position: relative !important;
+  display: inline-block !important;
+}
+
+.social-media-icons li a img {
+  width: 32px;
+  height: 32px;
+  overflow: visible;
+  fill: currentColor;
+  vertical-align: middle !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.copyright {
+  padding-top: 1.6rem !important;
+  padding-bottom: 1.6rem !important;
+  color: rgba(0, 0, 0, 0.58) !important;
 }
